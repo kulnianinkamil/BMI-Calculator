@@ -1,0 +1,65 @@
+    body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.main-description{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #f0eec1;
+    padding: 20px;
+    text-align: center;
+    box-shadow:  6px 6px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.header-first{
+    text-align: center;
+    font-weight: 400;
+}
+.input-text{    
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.textt{  
+    letter-spacing: 1px;
+}
+.submit{
+    position:fixed;
+    left: 50%; /* Ustawiamy przycisk na środku poziomo */
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top:15px;
+  }
+  
+.submit:hover{
+    background-color: #2387ca;
+}
+#all{
+    margin-top: 3px;
+}
+input[type=number]{
+    border-radius: 20px;
+    background: #e0ddb0;
+    appearance: textfield;
+    opacity: 1;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
